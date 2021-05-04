@@ -8,7 +8,7 @@ export default createGlobalStyle`
 
 body {
   overflow-x: hidden;
-  font-family: 'Gordita';
+  font-family: 'Gordita', sans-serif;
   max-width: 100%;
 }
 
