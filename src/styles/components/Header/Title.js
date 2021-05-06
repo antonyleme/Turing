@@ -6,6 +6,12 @@ const Title = styled.h1`
   line-height: 68px;
   color: white;
   margin-bottom: 8px;
+
+  @media (max-width: 768px) {
+    font-size: 38px;
+    line-height: 44px;
+    max-width: 80%
+  }
 `
 
 export default Title

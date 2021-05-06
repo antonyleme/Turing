@@ -8,7 +8,12 @@ const Icon = styled.div`
   border-radius: 100px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 9px
+  margin-bottom: 9px;
+
+  @media (max-width: 767px){
+    width: 60px;
+    height: 60px;
+  }
 `
 
 export default Icon

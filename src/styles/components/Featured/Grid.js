@@ -19,8 +19,9 @@ const Grid = styled.div`
     grid-template-columns: repeat(3, 1fr);
   }
 
-  @media (max-width: 767px) {
-    grid-template-columns: 1fr;
+  @media(max-width: 767px) {
+    grid-gap: 10px;
+    grid-row-gap: 30px;
   }
 `
 

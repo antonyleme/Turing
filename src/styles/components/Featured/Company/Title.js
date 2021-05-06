@@ -7,6 +7,11 @@ const Grid = styled.h3`
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
+
+  @media(max-width: 767px){
+    font-size: 14px;
+    line-height: 20px;
+  }
 `
 
 export default Grid
